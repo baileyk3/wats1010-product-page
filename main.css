@@ -2,7 +2,108 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+#video {
+  background: linear-gradient(gray, lightblue);
+  text-align: center;
+  padding-top: 20px;
+}
+#about-us {
+  padding: 100px;
+  background: linear-gradient(lightblue, yellow);
+
+}
+#testimonials {
+  padding: 100px;
+  background: linear-gradient(yellow, lightcoral);
+
+}
+#features {
+  padding: 100px;
+  background: linear-gradient(lightcoral, yellowgreen);
+
+}
+#contact {
+  padding: 100px;
+  background: linear-gradient(yellowgreen, grey );
+}  
+
+a.nav-link:hover {
+  border: white dotted 1px;
+}
+a.navbrand {
+  color: white;
+}
+
+.btn-social-icon {
+  padding: 0;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.fa {
+  display: inline-block;
+  padding: 5px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.img-fluid {
+  max-width: 400px;
+}
+.card-img-top {
+  max-width: 200px;
+}
+.footer-flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: darkgray;
+}
+.footer-item-flex {
+  flex: 0 1 auto;
+}
+
+.col-lg-6 {
+  padding: 25px;
+}
+
+
+
+
+.page-header {
+ max-width: 1000px;
+}
+
+a.nav-link {
+  padding: 5px;
+}
+
+iframe {
+  margin: auto;
 }
