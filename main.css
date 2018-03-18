@@ -15,11 +15,12 @@ h2 {
 #video {
   background: linear-gradient(gray, lightblue);
   text-align: center;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 #about-us {
   padding: 100px;
   background: linear-gradient(lightblue, yellow);
+  
 
 }
 #testimonials {
@@ -35,6 +36,7 @@ h2 {
 #contact {
   padding: 100px;
   background: linear-gradient(yellowgreen, grey );
+  text-align: center;
 }  
 
 a.nav-link:hover {
@@ -79,25 +81,28 @@ a.navbrand {
 .card-img-top {
   max-width: 200px;
 }
-.footer-flex {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: darkgray;
-}
-.footer-item-flex {
-  flex: 0 1 auto;
-}
+
 
 .col-lg-6 {
   padding: 25px;
 }
 
 
+a:link {
+  color: black;
+}
 
-
-.page-header {
- max-width: 1000px;
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 a.nav-link {
